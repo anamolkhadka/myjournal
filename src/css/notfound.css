@@ -1,0 +1,17 @@
+
+.not-found {
+    border-radius: 5px;
+    background-color: lightpink;
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+    margin-top: 100px;
+}
+.not-found a {
+    text-decoration: none;
+    padding: 6px;
+    color:white;
+    background-color:#f1356d;
+    border-radius: 8px;
+
+  }

@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 900px;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+    margin-bottom: 20px;
+    width:900px;
+    justify-content: center;
+}
+.navbar h1 {
+color: #f1356d;
+font-family: "Georgia"
+
+}
+.navbar .book-icon {
+margin-left: 16px;
+font-size:60px;
+}
+
+.navbar .links {
+margin-left: auto;
+}
+
+.navbar a {
+margin-left: 16px;
+text-decoration: none;
+padding: 6px;
+color: #333;
+}
+
+.navbar a:hover {
+color: #f1356d;
+}
+
+/*Navar Logout Button */
+.navbar button{
+  background: none;
+  border: none;
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #333;
+  
+}
+
+.navbar button:hover {
+  color: #f1356d;
+}

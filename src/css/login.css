@@ -1,0 +1,78 @@
+
+/*Login Page*/
+.login {
+    border-radius: 5px;
+    background-color: lightpink;
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+    margin-top: 100px;
+}
+
+.login h1{
+    color: #f1356d;
+    font-family:'Lucida Handwriting';
+
+}
+.login input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login button {
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.login p {
+    margin-top: 20px;
+}
+.login h5 {
+    color: red;
+}
+
+/*Sign Up page */
+.signup {
+    border-radius: 5px;
+    background-color: lightpink;
+    padding: 20px;
+    margin: auto;
+    width: 500px;
+    margin-top: 100px;
+}
+
+.signup h1{
+    color: #f1356d;
+    font-family:'Lucida Handwriting';
+}
+.signup input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.signup button{
+    background: #f1356d;
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.signup p {
+    margin-top: 20px;
+}
+.signup h5 {
+    color: red;
+}
