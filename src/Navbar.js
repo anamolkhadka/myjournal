@@ -14,7 +14,7 @@ const Navbar = () => {
         signOut(auth)
         .then(() => {
             console.log('the user signed out')
-            history.push('/');
+            history.push('/myjournal');
         })
         .catch((err) => {
             console.log(err.message)

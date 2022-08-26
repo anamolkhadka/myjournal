@@ -3,8 +3,6 @@ import {app} from './firebase';
 import { Link,useHistory} from 'react-router-dom';
 import {
     getAuth,signInWithEmailAndPassword,
-    onAuthStateChanged,GoogleAuthProvider,
-    signInWithPopup,
 }from 'firebase/auth'
 import {useState } from 'react';
 
