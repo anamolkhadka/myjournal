@@ -17,7 +17,7 @@ const BlogDetails = () => {
     // collection ref
     const {userid} = useGetid();
     const colRef = collection(db,`blogs-${userid}`);  
-    
+
     ///Getting single document.
     useEffect(() => {
 
@@ -38,7 +38,7 @@ const BlogDetails = () => {
         deleteDoc(docref)
 
         .then(() => {
-            history.push('/');             ///Routing to the home page.
+            history.push('/home');             ///Routing to the home page.
         })
     }
     

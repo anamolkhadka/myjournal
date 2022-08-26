@@ -23,7 +23,7 @@ const Create = () => {
         })
         .then(() => {
             addBookForm.reset()                         ///Reseting the form after the user submits it.
-            history.push('/');                          ///Routing to the home page after the user submits the form.
+            history.push('/home');                          ///Routing to the home page after the user submits the form.
         })
     }
     

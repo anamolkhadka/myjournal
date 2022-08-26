@@ -16,13 +16,13 @@ function App() {
         <div className="App">
           <div className="content">
             <Switch>
-                <Route exact path='/login'>
+                <Route exact path='/'>
                   <Login/>
                 </Route>
                 <Route exact path='/signup'>
                   <Signup/>
                 </Route>
-                <Route exact path='/'>
+                <Route exact path='/home'>
                   <div>
                     <Navbar/>
                     <Home/>

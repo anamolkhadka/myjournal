@@ -24,7 +24,7 @@ const Signup = () => {
                 console.log('user created:',cred.user)
                 signupForm.reset()
                 setError(null)
-                history.push('/')
+                history.push('/home')
             })
             .catch((err)=>{
                 ///console.log(err.code)

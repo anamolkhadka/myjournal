@@ -29,7 +29,7 @@ const Login = () => {
                 console.log(cred.user.email);
                 setError(null)
                 loginForm.reset()
-                history.push('/');
+                history.push('/home');
             })
             .catch((err)=>{
                 ///console.log(err.code);

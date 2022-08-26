@@ -14,7 +14,7 @@ const Navbar = () => {
         signOut(auth)
         .then(() => {
             console.log('the user signed out')
-            history.push('/login');
+            history.push('/');
         })
         .catch((err) => {
             console.log(err.message)
@@ -29,7 +29,7 @@ const Navbar = () => {
                 <i className="bi bi-journal"></i>
             </div>
             <div className="links">
-                <Link to="/">Home</Link>
+                <Link to="/home">Home</Link>
                 <Link to="/create">New Blog</Link>
                 {/* <a href='#' onClick={user_logout}>Logout</a> */}
                 <button onClick={user_logout}>Logout</button>
