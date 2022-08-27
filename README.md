@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# My Journal Web Application 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My Journal is a react based web application that is integrated with the real time database management system with firestone. This app provides several authentication checks and protection to secure the user credentials and login access and is connected with the real time database. The app fetches the real time data. Anytime the user adds or delete a new blog, it updates the document in the database and captures a new snapshot of the updated current database and displays the user data in their profile. 
 
-## Available Scripts
 
-In the project directory, you can run:
+## Application
 
-### `npm start`
+This Web App provides a platform to any users to create an online Journal for record keeping and expressing their daily activities, events and emotions they want to convey. This app is created in order to honor and re-establish the habit of people to write daily journals from the early 19th century. It is important to express your feelings and emotions which has been slowly elapsed in the modern generation. This app provides a modern version of journal writing platform to the users. 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Languages , Technologies  and  Frameworks Used
 
-### `npm test`
+- React JS
+- Firebase Auth
+- Firestore Database
+- Boostrap 5
+- HTML/CSS
+- Javascript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Demo for the Users 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Click on the gif for Full Video
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[![My Journal gif](https://github.com/anamolkhadka/myjournal/blob/main/My%20Journal%20gif.gif)](https://youtu.be/klAIs1VREFA)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
