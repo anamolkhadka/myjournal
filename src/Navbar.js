@@ -23,7 +23,7 @@ const Navbar = () => {
     }
 
     return (
-        <nav className="navbar justify-content-center">
+        <nav className="navbar">
             <h1>My Journal</h1>
             <div className="book-icon" >
                 <i className="bi bi-journal"></i>

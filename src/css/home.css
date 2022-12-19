@@ -5,14 +5,24 @@
     align-items: center;
     max-width: 900px;
     margin: 0 auto;
-}
+    text-align: justify;
+} 
+
+/* .blog-list div {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    max-width: 900px;
+    margin: 0 auto;
+} */
 
 /* blog previews /list */
 .blog-preview{
     padding: 10px 16px;
     margin: 20px 0;
     border-bottom: 1px #fafafa;
-    width: 900px;
+    width: 100%;
 }
 .blog-preview:hover {
     box-shadow: 1px 3px 5px rgba(0,0,0,0.1);

@@ -5,6 +5,7 @@
   margin: 0;
   font-family: "Quicksand";
   color: #333;
+  
 }
 
 .navbar {
@@ -15,9 +16,10 @@
     margin: 0 auto;
     border-bottom: 1px solid #f2f2f2;
     margin-bottom: 20px;
-    width:900px;
+    width:100%;
     justify-content: center;
 }
+
 .navbar h1 {
 color: #f1356d;
 font-family: "Georgia"
