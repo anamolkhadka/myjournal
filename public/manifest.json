@@ -1,11 +1,11 @@
 {
+
   "name": "My Journal",
   "short_name": "My Journal",
-  "start_url": "/myjournal",
-  "scope": "/myjournal",
-  "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff",
+  "display": "standalone",
+  "start_url": ".",
 
   "icons": [
     {
