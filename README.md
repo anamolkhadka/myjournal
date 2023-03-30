@@ -16,6 +16,7 @@ This Web App provides a platform to any users to create an online Journal for re
 - Boostrap 5
 - HTML/CSS
 - Javascript
+- NodeJS
 
 
 ## Demo for the Users 
